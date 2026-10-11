@@ -2,8 +2,10 @@ main {
     background-color: black;
     background-repeat: no-repeat;
     background-size: cover;
-    max-width: 800px;
-    max-height: 500px;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 16px;
     margin: auto;
     text-decoration: none;
     display: grid;
@@ -81,7 +83,7 @@ header ul {
     color: beige;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    padding: 5;
+    padding: 5px;
     list-style-type: none;
     padding: 3px;
     text-decoration: none;
